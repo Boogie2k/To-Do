@@ -1,0 +1,68 @@
+body {
+    background: #dde1ef;
+}
+
+article {
+    text-align: center;
+
+}
+
+form>div {
+    width: 100%;
+}
+
+input {
+    width: 65%;
+}
+
+form {
+    background-color: #dde1ef;
+    margin: 0 auto;
+    padding: 1%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: -3px -3px 8px white,
+        3px 3px 6px black;
+}
+
+#del {
+    color: red;
+}
+
+.lists {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    max-height: 16px;
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 5%;
+}
+
+.lists h4 {
+    max-height: 100%;
+    width: 100%;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.lists button {
+    color: red;
+    border: none;
+}
+
+section {
+    width: 80%;
+}
+
+#error {
+    display: none;
+    color: yellow;
+}
